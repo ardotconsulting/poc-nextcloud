@@ -5,7 +5,7 @@ FROM nextcloud:35-apache
 
 ENV SQLITE_DATABASE=nextcloud
 ENV NEXTCLOUD_ADMIN_USER=admin
-ENV NEXTCLOUD_TRUSTED_DOMAINS=nextcloud.poc.ardotconsulting.com localhost
+ENV NEXTCLOUD_TRUSTED_DOMAINS="nextcloud.poc.ardotconsulting.com localhost"
 ENV OVERWRITEPROTOCOL=https
 ENV OVERWRITECLIURL=https://nextcloud.poc.ardotconsulting.com
 
